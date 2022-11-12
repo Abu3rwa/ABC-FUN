@@ -1,0 +1,36 @@
+.courses {
+    justify-content: center;
+        align-items: center;
+}
+.courses .courses-title{
+    color: rgb(255, 111, 238);
+}
+.courses ul{
+    box-shadow: 0 2px 7px -4px #249eff;
+        cursor: pointer;
+        padding: 5px;
+        transition: 0.3s all ease-in-out;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+}
+.courses ul:hover{
+    transform: scale(1.1);
+    box-shadow:  5px 9px -4px #249eff !important
+}
+.courses ul li{
+    list-style: none;
+}
+.courses li:hover{
+    color: #249eff;
+    text-decoration: underline  ;
+}
+.courses{
+
+}
+.courses{
+
+}

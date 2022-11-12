@@ -1,0 +1,14 @@
+{
+  "name": "medicine-app",
+  "version": "1.0.0",
+  "description": "this app makes it easy for people to find medicine.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "the Dev Knights Team",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
