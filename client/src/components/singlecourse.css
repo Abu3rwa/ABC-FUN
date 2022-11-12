@@ -1,0 +1,15 @@
+.single-course{
+margin: 0;
+     justify-content: center;
+}
+.single-course li{
+    padding: 5px;
+        /* background-color: #dbefff38; */
+        border-radius: 10px;
+        margin: 5px;
+        border: 1px #249eff70 solid;
+        color: #8f8c8c;
+        list-style: none;
+        cursor: pointer;
+
+}

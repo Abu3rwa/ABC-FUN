@@ -3,7 +3,7 @@
 function Topbar(){
 return (
     <div className="topbar row">
- <h2 className="title col-4">ABC Fun</h2>
+ <h2 className="title  col-4"><Link className="link" to="/">ABC Fun</Link> </h2>
  <div className="links col-8">
  <li>
  

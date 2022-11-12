@@ -28,7 +28,10 @@
     color: #249eff;
     text-decoration: underline  ;
 }
-.courses{
+.courses a {
+
+    text-decoration: none !important;
+    color: black !important;
 
 }
 .courses{

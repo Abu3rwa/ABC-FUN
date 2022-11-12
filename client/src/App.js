@@ -4,9 +4,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import "./index.css"
 import Topbar from "./components/Topbar"
 import "bootstrap"
 import Home from "./views/Home"
+import SingleCourse from "./components/SingleCourse";
 function App() {
   console.log("this is working about")
   return (
@@ -15,6 +17,7 @@ function App() {
         <Topbar />
         <Routes>
           <Route path="/" element={  <Home/> }/>
+          <Route path="/course/:id" element={  <SingleCourse/> }/>
         </Routes>
       </Router>
     
