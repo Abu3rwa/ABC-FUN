@@ -1,5 +1,7 @@
-import 'package:abc_fun/Levels.dart';
-import 'package:abc_fun/Screens/level_courses.dart';
+import 'package:abc_fun/Screens/courses_screen.dart';
+import 'package:abc_fun/courses.dart';
+import 'package:abc_fun/levels.dart';
+import 'package:abc_fun/Screens/single_level.dart';
 import 'package:abc_fun/games.dart';
 import 'package:abc_fun/header.dart';
 import 'package:abc_fun/welcomeMsg.dart';
@@ -14,15 +16,16 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-        theme: ThemeData(
-          primarySwatch: Colors.green,
-        ),
-        title: "ABC FUN ",
-        home: MyHomePage());
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+      ),
+      title: "ABC FUN ",
+      home: MyHomePage(),
+      routes: {"/courses": (ctx) => CoursesScreen()},
+    );
   }
 }
 

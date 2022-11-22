@@ -6,7 +6,7 @@ import './models/lesson.dart';
 
 import './models/course.dart';
 
-const dummy_courses = [
+const courses = [
   Course(
       id: 1,
       name: "Basics",

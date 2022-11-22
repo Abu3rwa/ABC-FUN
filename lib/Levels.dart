@@ -1,4 +1,5 @@
-import 'package:abc_fun/Screens/level_courses.dart';
+import 'package:abc_fun/Screens/single_level.dart';
+import 'package:abc_fun/dummy_data.dart';
 import 'package:flutter/material.dart';
 
 class Levels extends StatefulWidget {
@@ -16,16 +17,12 @@ class _LevelsState extends State<Levels> {
     "Level 6"
   ];
   void navigateHandler(BuildContext ctx) {
-    Navigator.of(context).push(MaterialPageRoute(
-      builder: (_) {
-      return LevelCourses();
-    }));
+    Navigator.of(context).pushNamed("/courses", arguments: {courses});
   }
+
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-
-
     return Column(
       children: [
         Container(
