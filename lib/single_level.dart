@@ -1,5 +1,5 @@
-import 'package:abc_fun/dummy_data.dart';
-import 'package:abc_fun/lesson.dart';
+import './dummy_data.dart';
+import './lesson.dart';
 import 'package:flutter/material.dart';
 
 class SingleLevel extends StatefulWidget {

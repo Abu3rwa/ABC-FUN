@@ -1,5 +1,4 @@
-import 'package:abc_fun/Screens/single_level.dart';
-import 'package:abc_fun/dummy_data.dart';
+import './dummy_data.dart';
 import 'package:flutter/material.dart';
 
 class Levels extends StatefulWidget {

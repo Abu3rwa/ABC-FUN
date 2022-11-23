@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 class Level extends StatefulWidget {
   final courses;
   Level(this.courses);
-
   @override
   State<Level> createState() => _LevelState();
 }

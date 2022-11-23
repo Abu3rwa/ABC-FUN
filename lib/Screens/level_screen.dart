@@ -2,14 +2,14 @@ import 'package:abc_fun/courses.dart';
 import '../level.dart';
 import 'package:flutter/material.dart';
 
-class CoursesScreen extends StatefulWidget {
-  const CoursesScreen({Key? key}) : super(key: key);
+class LevelScreen extends StatefulWidget {
+  const LevelScreen({Key? key}) : super(key: key);
 
   @override
-  State<CoursesScreen> createState() => _LevelCoursesState();
+  State<LevelScreen> createState() => _LevelCoursesState();
 }
 
-class _LevelCoursesState extends State<CoursesScreen> {
+class _LevelCoursesState extends State<LevelScreen> {
   @override
   Widget build(BuildContext context) {
     final args = ModalRoute.of(context);
